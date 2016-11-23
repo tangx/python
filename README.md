@@ -9,9 +9,9 @@
 
 # My python command
 
-+ [pytree.py](python_example/pytree.py)  - command ` tree ` by python
-+ [pyoudao.py](python_example/pyoudao.py)  - tranlsate Enghlish characters into English by ` re ` and ` urllib `
-+ [pypaste.py](python_example/pypaste.py)  - command ` paste ` by python
-+ [pyseq.py](python_example/pyseq.py)  - command ` seq ` by python
-+ [pymkdir.py](python_example/pymkdir.py)  - command ` mkdir ` by python
-+ [pycopy_file.py](python_example/pycopy_file.py)  - command ` copy ` but only work on file from SRC to DEST
++ [pytree.py](python_command/pytree.py)  - command ` tree ` by python
++ [pyoudao.py](python_command/pyoudao.py)  - tranlsate Enghlish characters into English by ` re ` and ` urllib `
++ [pypaste.py](python_command/pypaste.py)  - command ` paste ` by python
++ [pyseq.py](python_command/pyseq.py)  - command ` seq ` by python
++ [pymkdir.py](python_command/pymkdir.py)  - command ` mkdir ` by python
++ [pycopy_file.py](python_command/pycopy_file.py)  - command ` copy ` but only work on file from SRC to DEST
