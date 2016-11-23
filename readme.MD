@@ -10,6 +10,7 @@
 + [python_qiniu_image_upload.py](python_example/python_qiniu_image_upload.py)  - upload images into qiniu bucket and use images' md5hash code as image name
 + [pytree.py](python_example/pytree.py)  - command ` tree ` by python
 + [batch_files_rename.py](python_example/batch_files_rename.py)  - rename file with specify extension to new extension
++ [pymkdir.py](python_example/pymkdir.py)  - command ` mkdir ` by python
 
 
 
