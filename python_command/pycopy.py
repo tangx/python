@@ -27,6 +27,7 @@ def usage():
     OPTIONS:
         '-f' : force to overwrite dst
         '-i' : interactive to overwrite dst
+        '-r' : recutive copy directory # didn't use
     '''
 
 
