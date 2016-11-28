@@ -56,6 +56,7 @@ def gen_image_2(l):
     fig.autofmt_xdate()  # 自动格式化显示方式
 
     plt.show()  # 显示图片
+    plt.savefig('filename.png')  # 保存图片
 
 
 def main():
