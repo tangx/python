@@ -12,6 +12,9 @@
     - upload images into qiniu bucket and use images' md5hash code as image name
 + [batch_files_rename.py](python_example/batch_files_rename.py)  
     - rename file with specify extension to new extension
++ [python_matplotlib_xaxis_datetime_format.py](python_example/python_matplotlib_xaxis_datetime_format.py)
+    - format the image's x_axis datetime printout
+
 
 # My python command
 
