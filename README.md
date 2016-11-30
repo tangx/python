@@ -32,3 +32,15 @@
     - command ` copy ` but only work on file from SRC to DEST
 + [pycopye.py](python_command/pycopy.py)  
     - command ` copy `; SRC support file and directory. support using '-f' or '-i' to force or interactive to overwrite DST which already exists.
+
+
+# Python Code Piece
+
++ [check_os_platform.md](python_code_piece/check_os_platform.md)
+    - check which the os platform is 
++ [check_samefile.md](python_code_piece/check_samefile.md)
+    - check two files if or not the same file
++ [open_file_via_with.md](python_code_piece/open_file_via_with.md)
+    - use `with` to open files instead of `try ... except ... `
+
+    
