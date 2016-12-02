@@ -13,8 +13,9 @@
 + [batch_files_rename.py](python_example/batch_files_rename.py)  
     - rename file with specify extension to new extension
 + [python_matplotlib_xaxis_datetime_format.py](python_example/python_matplotlib_xaxis_datetime_format.py)
-    - format the image's x_axis datetime printout
-
+    - format the image's x_axis datetime printout    
++ [qiniuSync.py](python_example/qiniuSync/qiniuSync.py)
+    - sync local path to qiniu bucket, configs in [user_cfg.py](python_example/qiniuSync/user_cfg.py)
 
 # My python command
 
