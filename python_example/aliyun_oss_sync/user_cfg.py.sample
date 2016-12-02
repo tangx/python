@@ -1,0 +1,13 @@
+access_key = 'your-oss-access-key'
+secret_key = 'your-oss-access-secret'
+
+# for more endpoint, refer to https://help.aliyun.com/document_detail/31837.html?spm=5176.2020520105.147.5.WzWGLC
+endpoint = 'http://oss-cn-hangzhou.aliyuncs.com'
+
+bucket_name = 'bucket-name'
+
+# specify the prefix for files
+bucket_prefix = ''
+
+# specify which local directory to sync
+local_path = r'images'

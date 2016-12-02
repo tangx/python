@@ -15,7 +15,10 @@
 + [python_matplotlib_xaxis_datetime_format.py](python_example/python_matplotlib_xaxis_datetime_format.py)
     - format the image's x_axis datetime printout    
 + [qiniuSync.py](python_example/qiniuSync/qiniuSync.py)
-    - sync local path to qiniu bucket, configs in [user_cfg.py](python_example/qiniuSync/user_cfg.py)
+    - sync local path to qiniu bucket, configs like [user_cfg.py](python_example/qiniuSync/user_cfg.py.sample)
++ [aliyun_oss_sync.py](python_example/aliyun_oss_sync/aliyun_oss_sync.py.py)
+    - sync local path to qiniu bucket, configs like [user_cfg.py](python_example/aliyun_oss_sync/user_cfg.py.sample)
+
 
 # My python command
 
