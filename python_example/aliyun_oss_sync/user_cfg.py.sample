@@ -11,3 +11,6 @@ bucket_prefix = ''
 
 # specify which local directory to sync
 local_path = r'images'
+
+# specify the domain of cdn server, in order to refresh the caches
+cdn_domain='http://xxxx.aliyun.com'
