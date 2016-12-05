@@ -21,7 +21,7 @@ import sys
 
 def usage():
     print __doc__
-    print "Usage pyfindext.py path ext1 ext2"
+    print "Usage pyfindext.py path ext1 [ext2 ext3 ...]"
     sys.exit(1)
 
 
@@ -47,6 +47,10 @@ def find_ext(path, ext):
 
 
 def main(path, exts):
+    if not os.path.exists(path):
+        print "Path %s doesn't exist" % path
+        usage()
+
     for ext in exts:
         find_ext(path, ext)
 
