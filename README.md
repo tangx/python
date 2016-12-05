@@ -1,4 +1,4 @@
-# My python examples and exersises
+# My python examples and exercises
 
 + [py_get_ipaddr.py](python_example/py_get_ipaddr.py)  
     - get your public ip address by ` re ` and ` urllib `
@@ -36,6 +36,8 @@
     - command ` copy ` but only work on file from SRC to DEST
 + [pycopye.py](python_command/pycopy.py)  
     - command ` copy `; SRC support file and directory. support using '-f' or '-i' to force or interactive to overwrite DST which already exists.
++ [pyfindext.py](pyhont_command/pycopy.py)
+    - command ` find `; but only support to specify extensions to search.
 
 
 # Python Code Piece
