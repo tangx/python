@@ -14,6 +14,14 @@ import os
 import sys
 
 
+def _uri_encode(f, pfix):
+    # for linux and windows platform
+
+    f_list = f.split(os.path.sep)
+    uri = '/'.join(f_list[1:])
+    return "%s%s" % (pfix, uri)
+
+
 def _uri_encode_win32(f):
     # f=r".\path\filename.png"
     # f=r".filename.png"
@@ -22,7 +30,10 @@ def _uri_encode_win32(f):
 
     # '/'.join(os.path.split(f))
 
-    f_tuple = os.path.split(f)
+    # f_tuple = os.path.split(f)
+    f_tuple = f.split(os.path.sep)
+
+
     if len(f_tuple[0]) == 0:
         # print f
         return f
