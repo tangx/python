@@ -18,6 +18,8 @@
     - sync local path to qiniu bucket, configs like [user_cfg.py](python_example/qiniuSync/user_cfg.py.sample)
 + [aliyun_oss_sync.py](python_example/aliyun_oss_sync/aliyun_oss_sync.py.py)
     - sync local path to aliyun oss bucket, configs like [user_cfg.py](python_example/aliyun_oss_sync/user_cfg.py.sample)
++ [ss_checkin](python_example/ss_checkin/ss_checkin.py.py)
+    - auto login and checkin for ss site module, configs like [user_cfg.py](python_example/ss_checkin/user_cfg.py.sample)
 
 
 # My python command
