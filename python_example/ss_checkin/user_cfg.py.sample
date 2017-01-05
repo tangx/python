@@ -1,0 +1,3 @@
+hostname = 'www.example.org'
+username = 'account@email.com'
+password = 'password_For_your_account'
