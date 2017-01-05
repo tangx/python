@@ -156,7 +156,9 @@ def main(username, password):
 
 
 if __name__ == '__main__':
-    hostname = 'www.66ss.ml'
-    username = 'Zz5Rkwu@outlook.com'
-    password = 'z9miuQFNDGRvaX6hZ1Xk'
+    try:
+        import user_cfg
+    except ImportError as err:
+        print err
+
     main(username, password)
