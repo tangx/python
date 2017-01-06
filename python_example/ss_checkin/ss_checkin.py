@@ -157,7 +157,7 @@ def main(username, password):
 
 if __name__ == '__main__':
     try:
-        import user_cfg
+        from user_cfg import *
     except ImportError as err:
         print err
 
