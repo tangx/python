@@ -2,3 +2,5 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/python.iml
+*.pyc
+python_example/ss_checkin/user_cfg.py

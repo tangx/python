@@ -20,6 +20,9 @@
     - sync local path to aliyun oss bucket, configs like [user_cfg.py](python_example/aliyun_oss_sync/user_cfg.py.sample)
 + [ss_checkin.py](python_example/ss_checkin/ss_checkin.py)
     - auto login and checkin for ss site module, configs like [user_cfg.py](python_example/ss_checkin/user_cfg.py.sample)
++ [python_auto_mailaaaa.py](python_example/python_auto_mailaaaa.py)
+    - send email via python, work in OSX.
+    
 
 
 # My python command
